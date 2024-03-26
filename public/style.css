@@ -63,7 +63,7 @@ textarea {
   border-radius: var(--radius);
   background: #eee;
   transition: 0.2s;
-  margin-top:1rem;
+  margin-top: 1rem;
 }
 
 input:focus,
@@ -72,8 +72,7 @@ textarea:focus {
   border-color: var(--color);
   background: white;
   box-shadow: 0 0 0 3px var(--color-light);
-  margin-top:1rem;
-
+  margin-top: 1rem;
 }
 
 button {
@@ -84,8 +83,7 @@ button {
   background: var(--color);
   color: var(--color-dark);
   padding: 0.8rem 1.6rem;
-  margin-top:1rem;
-  
+  margin-top: 1rem;
 }
 
 button:hover,
