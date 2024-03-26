@@ -1,4 +1,4 @@
-*,
+/* *,
 *::after,
 *::before {
   box-sizing: border-box;
@@ -50,8 +50,12 @@ li {
 }
 
 label {
-  display: block;
-  margin-bottom: 0.25rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: fit-content;
+  gap: 10px;
+  margin-top: 5px;
 }
 
 input,
@@ -64,6 +68,7 @@ textarea {
   background: #eee;
   transition: 0.2s;
   margin-top: 1rem;
+  text-align: left;
 }
 
 input:focus,
@@ -105,4 +110,4 @@ button:disabled {
 hr {
   border: 2px solid black;
   margin: 2rem auto;
-}
+} */
