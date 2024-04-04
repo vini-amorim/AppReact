@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Produto from './Components/Produto';
+import Produtos from './Components/Produtos';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import Contato from './Components/Contato';
+import Produto from './Components/Produto';
 
 const App = () => {
   return (
@@ -13,7 +14,8 @@ const App = () => {
         <Header />
         <div className="content">
           <Routes>
-            <Route path="/" element={<Produto />} />
+            <Route path="/" element={<Produtos />} />
+            <Route path="produto/:id" element={<Produto />} />
             <Route path="/Contato" element={<Contato />} />
           </Routes>
         </div>
